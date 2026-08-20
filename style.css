@@ -1,0 +1,146 @@
+body{
+      margin: 0 ;
+       font-family: 'Roboto', sans-serif;
+    }
+   .header{
+    background-color:#0171f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  .base {
+    padding: 5px;
+  }
+  .logo{
+  width: 100px;
+  }
+ .header-links a{ 
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.btn:hover{
+  background-color: #2386fe;
+}
+
+.btn{
+  background-color:#ee6268 ;
+  border-radius: 15px;
+  padding: 5px 15px;
+  color: white;
+  border: none;}
+.header-links button:hover{
+background-color: #f2858c;
+}
+.landing-page{
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+.landing-page .j {
+    width: 350px;
+}
+.landing-page-search input{
+border-radius: 50px;
+border: none;
+outline: none;
+height: 30px;
+padding: 0 10px;
+}
+.landing-page-search button{
+    position: absolute;
+    left: 200px;
+    height: 30px;
+}
+.image-container .j{
+    border-radius: 20px ;
+}
+.landing-page-left-section{
+    width: 400px;
+}
+.trending-container {
+  padding: 25px 50px;  
+}
+.trending-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-header h1{
+    margin-top: 0%;
+}
+.trending-container span{
+     color: #ee6268;
+     text-transform: uppercase;
+     font-size: 14px;
+}
+
+
+
+.trending-cards {
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+}
+
+.card {
+    width: 200px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+.card .thumb {
+    border-radius: 20px 20px 0 0;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.card-info img {
+    width: 50px;
+}
+.trending-container .trending-cards .card .thumb{
+  height:250px ; width: 200px;
+}
+.series-a{
+ padding: 25px 50px; 
+ 
+}
+
+.series-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.thumb2 {
+    width: 200px;
+    height: 250px;
+    display: block;
+   
+}
+
+.card1 {
+    width: 200px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    overflow: hidden;
+   
+}
+ 
+.series-cards{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-left: 40px;
+    gap: 20px;
+}
