@@ -145,5 +145,5 @@ padding: 0 10px;
     gap: 20px;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
