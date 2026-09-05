@@ -1,0 +1,99 @@
+body{
+      margin: 0 ;
+       font-family: 'Roboto', sans-serif;
+    }
+   .header{
+    background-color:#0171f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  .base {
+    padding: 5px;
+  }
+  .logo{
+  width: 100px;
+  }
+ .header-links a{ 
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.btn:hover{
+  background-color: #2386fe;
+}
+
+.btn{
+  background-color:#ee6268 ;
+  border-radius: 15px;
+  padding: 5px 15px;
+  color: white;
+  border: none;}
+.header-links button:hover{
+background-color: #f2858c;
+}
+.landing-page{
+    background-color: #0171f9;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+.landing-page-left-section{
+    width: 400px;
+    direction: rtl;
+    text-align: right;
+}
+.landing-page .j {
+    width: 350px;
+}
+.landing-page-search input{
+border-radius: 50px;
+border: none;
+outline: none;
+height: 30px;
+padding: 0 10px;
+}
+.landing-page-search button{
+    position: absolute;
+    left: 200px;
+    height: 30px;
+}
+.image-container .j{
+    border-radius: 20px ;
+}
+.landing-page-left-section{
+    width: 400px;
+}
+.trending-container {
+  padding: 25px 50px;  
+}
+.landing-page-left-section h1{
+
+    font-size: 80px;
+}
+.landing-page-left-section p{
+    font-size: 25px;
+}
+.first-series{
+   border: #0171f9 solid ;
+   padding: 30px;
+   margin: 20px 50px 20px auto;
+   width: fit-content;
+}
+.sacond-series{
+    border: #0171f9 solid;
+     padding: 30px;
+     margin-top: 20px;
+}
+.series-a{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    gap: 20px;
+}
