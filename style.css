@@ -144,6 +144,9 @@ padding: 0 10px;
     margin-left: 40px;
     gap: 20px;
 }
+
 a {
   text-decoration: none !important;
+  color: inherit;
 }
+
